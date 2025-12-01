@@ -34,6 +34,6 @@ function getInfo(){
     }
     console.log(hobbies);
 
-    output.textContent = `Name: ${nameInput.value}, Age: ${ageInput.value}, Favorite Color: ${colorInput.value}, Pet: ${petInput.value}, Hobby: ${hobbyInput.value}`;
+    output.textContent = `Name: ${nameInput.value}, Age: ${ageInput.value}, Favorite Color: ${colorInput.value}, Pet: ${favPet}, Hobby: ${hobbies}`;
     
 } 
